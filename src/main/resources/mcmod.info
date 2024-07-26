@@ -2,14 +2,14 @@
 {
   "modid": "externalview",
   "name": "External View Reloaded",
-  "description": "mod that changes the distance of the camera from the player in third person mode",
+  "description": "Mod that changes the distance of the camera from the player in third person mode",
   "version": "2.1",
   "mcversion": "${mcversion}",
   "url": "https://github.com/AgniaEndie/ExternalView-Reloaded",
   "updateUrl": "",
   "authorList": ["FrozeRain","AgniaEndie","EVgenyGP","Endienasg","Senko-san"],
-  "credits": "",
-  "logoFile": "",
+  "credits": "Created by FrozeRain & AgniaEndie",
+  "logoFile": "assets/externalview/logo/logo.png",
   "screenshots": [],
   "dependencies": []
 }
