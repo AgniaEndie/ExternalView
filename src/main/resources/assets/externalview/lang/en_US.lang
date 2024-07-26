@@ -1,7 +1,7 @@
 key.externalview.category=External View
-key.zoom_out.description=Zoom Out
-key.zoom_in.description=Zoom In
-
+key.externalview.zoom_out.description=Zoom Out
+key.externalview.zoom_in.description=Zoom In
+key.externalview.turn_long_hand=Turn on/off "long-hand" mode
 
 externalview.cfg.camspeed=Camera Speed
 externalview.cfg.jenya=View Distance

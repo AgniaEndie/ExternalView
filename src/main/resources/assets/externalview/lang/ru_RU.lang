@@ -1,7 +1,7 @@
 key.externalview.category=External View
-key.zoom_out.description=Отдалить
-key.zoom_in.description=Приблизить
-
+key.externalview.zoom_out.description=Отдалить
+key.externalview.zoom_in.description=Приблизить
+key.externalview.turn_long_hand=Включить/Выключить режим "Длинная рука"
 
 externalview.cfg.camspeed=Скорость камеры
 externalview.cfg.jenya=Дальность прорисовки
