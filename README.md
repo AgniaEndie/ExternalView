@@ -7,5 +7,5 @@
 ##### Development - AgniaEndie, FrozeRain, Endienasg, Senko-san
 ##### Creative Idea - EvgenyGP & Ipv2007
 
-### Link 
+### Download 
 ##### https://www.curseforge.com/minecraft/mc-mods/external-view-reload/files
