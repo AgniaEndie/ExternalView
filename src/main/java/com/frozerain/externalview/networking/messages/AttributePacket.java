@@ -12,9 +12,7 @@ public class AttributePacket implements IMessage {
 
     private int value;
 
-    public AttributePacket() {
-        // Needs to be defined explicitly to avoid potential issues
-    }
+    public AttributePacket() {}
 
     public AttributePacket(int value) {
         this.value = value;
@@ -26,18 +24,15 @@ public class AttributePacket implements IMessage {
 
     @Override
     public void fromBytes(ByteBuf buf) {
-        // Use readFloat to match the data type
         value = buf.readInt();
     }
 
     @Override
     public void toBytes(ByteBuf buf) {
-        // Use writeInt to match the data type
         buf.writeInt(value);
     }
 
     // FML DOCS
-
     public static class AttributePacketHandler implements IMessageHandler<AttributePacket, IMessage> {
 
         Logger logger = LoggerFactory.getLogger(AttributePacket.class);
