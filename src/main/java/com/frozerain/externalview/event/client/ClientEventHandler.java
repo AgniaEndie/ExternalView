@@ -28,7 +28,6 @@ public class ClientEventHandler {
         if (player != null && gameSettings.thirdPersonView == 1) {
 
             if (ModKeys.ZOOM_OUT.isKeyDown()) {
-                System.out.println("CameraSpeed is " + a );
                 additionThirdPersonCameraDistance += a;
                 if (additionThirdPersonCameraDistance > b) {
                     additionThirdPersonCameraDistance = b;
@@ -36,7 +35,6 @@ public class ClientEventHandler {
             }
 
             if (ModKeys.ZOOM_IN.isKeyDown()) {
-                System.out.println("CameraSpeed is " + a );
                 additionThirdPersonCameraDistance -= a;
                 if (additionThirdPersonCameraDistance < 0) {
                     additionThirdPersonCameraDistance = 0.0F;
@@ -46,7 +44,6 @@ public class ClientEventHandler {
             GlStateManager.translate(0.0F, 0.0F, -additionThirdPersonCameraDistance);
         }else if(player != null && gameSettings.thirdPersonView == 2){
             if (ModKeys.ZOOM_OUT.isKeyDown()) {
-                System.out.println("CameraSpeed is " + a );
                 additionThirdPersonCameraDistance += a;
                 if (additionThirdPersonCameraDistance > b) {
                     additionThirdPersonCameraDistance = b;
@@ -54,7 +51,6 @@ public class ClientEventHandler {
             }
 
             if (ModKeys.ZOOM_IN.isKeyDown()) {
-                System.out.println("CameraSpeed is " + a );
                 additionThirdPersonCameraDistance -= a;
                 if (additionThirdPersonCameraDistance < 0) {
                     additionThirdPersonCameraDistance = 0.0F;

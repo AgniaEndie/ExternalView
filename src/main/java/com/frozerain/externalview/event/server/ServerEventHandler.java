@@ -21,11 +21,9 @@ public class ServerEventHandler {
     public static void playerEventHandler(TickEvent.PlayerTickEvent event) {
         if (ModKeys.TURN_LONG_HAND.isPressed()) {
             if (flag) {
-                logger.info("TRUE");
                 event.player.getEntityAttribute(EntityPlayer.REACH_DISTANCE).setBaseValue(Configs.reach);
                 flag = false;
             } else {
-                logger.info("FALSE");
                 event.player.getEntityAttribute(EntityPlayer.REACH_DISTANCE).setBaseValue(5.0f);
                 flag = true;
             }
